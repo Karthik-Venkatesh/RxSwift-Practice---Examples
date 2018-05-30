@@ -12,6 +12,9 @@
 		A7D98C2620BEB7B200880E08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D98C2420BEB7B200880E08 /* Main.storyboard */; };
 		A7D98C2820BEB7B300880E08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7D98C2720BEB7B300880E08 /* Assets.xcassets */; };
 		A7D98C2B20BEB7B300880E08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D98C2920BEB7B300880E08 /* LaunchScreen.storyboard */; };
+		A7D98C3620BEB8D300880E08 /* S1MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D98C3320BEB8D300880E08 /* S1MasterViewController.swift */; };
+		A7D98C3720BEB8D300880E08 /* S1SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D98C3420BEB8D300880E08 /* S1SelectViewController.swift */; };
+		A7D98C3820BEB8D300880E08 /* Sample1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D98C3520BEB8D300880E08 /* Sample1.storyboard */; };
 		EFAC76BBD108D61DFBEA074D /* Pods_RxSwiftTutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D5C75D914DAB5BAC5E12E5 /* Pods_RxSwiftTutorial.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +27,9 @@
 		A7D98C2720BEB7B300880E08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7D98C2A20BEB7B300880E08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7D98C2C20BEB7B300880E08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7D98C3320BEB8D300880E08 /* S1MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S1MasterViewController.swift; sourceTree = "<group>"; };
+		A7D98C3420BEB8D300880E08 /* S1SelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S1SelectViewController.swift; sourceTree = "<group>"; };
+		A7D98C3520BEB8D300880E08 /* Sample1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Sample1.storyboard; sourceTree = "<group>"; };
 		C0D5C75D914DAB5BAC5E12E5 /* Pods_RxSwiftTutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftTutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9930853E04094BDA3CC4E62 /* Pods-RxSwiftTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftTutorial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftTutorial/Pods-RxSwiftTutorial.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +84,7 @@
 		A7D98C1F20BEB7B200880E08 /* RxSwiftTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				A7D98C3220BEB8D300880E08 /* Sample1 */,
 				A7D98C2020BEB7B200880E08 /* AppDelegate.swift */,
 				A7D98C2220BEB7B200880E08 /* ViewController.swift */,
 				A7D98C2420BEB7B200880E08 /* Main.storyboard */,
@@ -86,6 +93,16 @@
 				A7D98C2C20BEB7B300880E08 /* Info.plist */,
 			);
 			path = RxSwiftTutorial;
+			sourceTree = "<group>";
+		};
+		A7D98C3220BEB8D300880E08 /* Sample1 */ = {
+			isa = PBXGroup;
+			children = (
+				A7D98C3320BEB8D300880E08 /* S1MasterViewController.swift */,
+				A7D98C3420BEB8D300880E08 /* S1SelectViewController.swift */,
+				A7D98C3520BEB8D300880E08 /* Sample1.storyboard */,
+			);
+			path = Sample1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +165,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7D98C3820BEB8D300880E08 /* Sample1.storyboard in Resources */,
 				A7D98C2B20BEB7B300880E08 /* LaunchScreen.storyboard in Resources */,
 				A7D98C2820BEB7B300880E08 /* Assets.xcassets in Resources */,
 				A7D98C2620BEB7B200880E08 /* Main.storyboard in Resources */,
@@ -204,6 +222,8 @@
 			files = (
 				A7D98C2320BEB7B200880E08 /* ViewController.swift in Sources */,
 				A7D98C2120BEB7B200880E08 /* AppDelegate.swift in Sources */,
+				A7D98C3720BEB8D300880E08 /* S1SelectViewController.swift in Sources */,
+				A7D98C3620BEB8D300880E08 /* S1MasterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
