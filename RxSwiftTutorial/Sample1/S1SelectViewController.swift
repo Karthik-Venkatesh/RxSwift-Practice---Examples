@@ -11,7 +11,7 @@ import RxSwift
 
 class S1SelectViewController: UIViewController {
 
-    private let selectedCharacterVariable = Variable.init("🐶")
+    private let selectedCharacterVariable = Variable.init("Asdf")
     
     var seletedCharacter : Observable<String> {
         return selectedCharacterVariable.asObservable()
