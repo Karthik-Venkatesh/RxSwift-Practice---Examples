@@ -11,7 +11,7 @@ import RxSwift
 
 class S1SelectViewController: UIViewController {
 
-    private let selectedCharacterVariable = Variable.init("Asdf")
+    private let selectedCharacterVariable = Variable.init("🐶")
     
     var seletedCharacter : Observable<String> {
         return selectedCharacterVariable.asObservable()
@@ -31,6 +31,7 @@ class S1SelectViewController: UIViewController {
     @IBAction func selected(_ sender: UIButton) {
         guard let text = sender.titleLabel?.text else { return }
         selectedCharacterVariable.value = text
+        self.navigationController?.popViewController(animated: true)
     }
     
 

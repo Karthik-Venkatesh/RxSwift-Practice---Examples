@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
-    var samlpe : [String] = ["Sample1"]
+    var samlpe : [String] = ["Sample1", "Sample2"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,6 +36,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         switch indexPath.row {
         case 0:
             let st = UIStoryboard.init(name: "Sample1", bundle: nil)
+            let vc = st.instantiateInitialViewController()
+            self.navigationController?.pushViewController(vc!, animated: true)
+        case 1:
+            let st = UIStoryboard.init(name: "Sample2", bundle: nil)
             let vc = st.instantiateInitialViewController()
             self.navigationController?.pushViewController(vc!, animated: true)
         default:

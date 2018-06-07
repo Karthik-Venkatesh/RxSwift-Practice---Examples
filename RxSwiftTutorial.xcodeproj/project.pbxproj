@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A76F786420C6CED200108413 /* Sample2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A76F786320C6CED200108413 /* Sample2.storyboard */; };
+		A76F786620C6CEEA00108413 /* S2MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76F786520C6CEEA00108413 /* S2MasterViewController.swift */; };
 		A7D98C2120BEB7B200880E08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D98C2020BEB7B200880E08 /* AppDelegate.swift */; };
 		A7D98C2320BEB7B200880E08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D98C2220BEB7B200880E08 /* ViewController.swift */; };
 		A7D98C2620BEB7B200880E08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D98C2420BEB7B200880E08 /* Main.storyboard */; };
@@ -20,6 +22,8 @@
 
 /* Begin PBXFileReference section */
 		75E3A95AF7B871725754CD2B /* Pods-RxSwiftTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftTutorial.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftTutorial/Pods-RxSwiftTutorial.release.xcconfig"; sourceTree = "<group>"; };
+		A76F786320C6CED200108413 /* Sample2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Sample2.storyboard; sourceTree = "<group>"; };
+		A76F786520C6CEEA00108413 /* S2MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S2MasterViewController.swift; sourceTree = "<group>"; };
 		A7D98C1D20BEB7B200880E08 /* RxSwiftTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7D98C2020BEB7B200880E08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7D98C2220BEB7B200880E08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +67,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A76F786020C6CC0800108413 /* Sample2 */ = {
+			isa = PBXGroup;
+			children = (
+				A76F786320C6CED200108413 /* Sample2.storyboard */,
+				A76F786520C6CEEA00108413 /* S2MasterViewController.swift */,
+			);
+			path = Sample2;
+			sourceTree = "<group>";
+		};
 		A7D98C1420BEB7B200880E08 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +97,7 @@
 		A7D98C1F20BEB7B200880E08 /* RxSwiftTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				A76F786020C6CC0800108413 /* Sample2 */,
 				A7D98C3220BEB8D300880E08 /* Sample1 */,
 				A7D98C2020BEB7B200880E08 /* AppDelegate.swift */,
 				A7D98C2220BEB7B200880E08 /* ViewController.swift */,
@@ -168,6 +182,7 @@
 				A7D98C3820BEB8D300880E08 /* Sample1.storyboard in Resources */,
 				A7D98C2B20BEB7B300880E08 /* LaunchScreen.storyboard in Resources */,
 				A7D98C2820BEB7B300880E08 /* Assets.xcassets in Resources */,
+				A76F786420C6CED200108413 /* Sample2.storyboard in Resources */,
 				A7D98C2620BEB7B200880E08 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,6 +239,7 @@
 				A7D98C2120BEB7B200880E08 /* AppDelegate.swift in Sources */,
 				A7D98C3720BEB8D300880E08 /* S1SelectViewController.swift in Sources */,
 				A7D98C3620BEB8D300880E08 /* S1MasterViewController.swift in Sources */,
+				A76F786620C6CEEA00108413 /* S2MasterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,9 +384,11 @@
 			baseConfigurationReference = F9930853E04094BDA3CC4E62 /* Pods-RxSwiftTutorial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = UW7469NL6K;
 				INFOPLIST_FILE = RxSwiftTutorial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -389,9 +407,11 @@
 			baseConfigurationReference = 75E3A95AF7B871725754CD2B /* Pods-RxSwiftTutorial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = UW7469NL6K;
 				INFOPLIST_FILE = RxSwiftTutorial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
