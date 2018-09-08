@@ -1,4 +1,22 @@
-# RxSwift-Practice---Examples
-RxSwift Practicing Repo
+# RxSwift Examples
 
-The purpose of learning RxSwift i created this repo.
+RxSwift example snippets.
+
+## Sample 1
+
+* Observable
+
+## Sample 2
+
+* ObservableSequence
+* publishSubject
+* map
+* flatMap
+* scan
+* filter
+* distinctUntilChanged
+* startWith
+* merge
+* zip
+* sideEffects
+* concurrentDispatchQueueScheduler
